@@ -1,2 +1,9 @@
 .DS_Store
 target/
+.idea/
+*.iml
+
+# Python
+__pycache__/
+*.pyc
+

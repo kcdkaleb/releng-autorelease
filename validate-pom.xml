@@ -21,10 +21,9 @@
   <name>autorelease-validate-projects</name> <!-- Used by Sonar to set project name -->
 
   <modules>
-    <module>odlparent</module>
+    <!-- TODO: Make sure every module listed here contains a reminder to keep this list updated. -->
     <module>yangtools</module>
 
-    <module>controller/opendaylight/commons/checkstyle</module>
     <module>controller/opendaylight/config/config-artifacts</module>
     <module>controller/opendaylight/config/yang-test-plugin</module>
     <module>controller/opendaylight/md-sal/mdsal-artifacts</module>
@@ -50,6 +49,12 @@
         <configuration>
           <skip>true</skip>
         </configuration>
+      </plugin>
+      <plugin>
+        <!-- https://bugs.opendaylight.org/show_bug.cgi?id=8483 -->
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-dependency-plugin</artifactId>
+        <version>3.0.1</version>
       </plugin>
     </plugins>
   </build>

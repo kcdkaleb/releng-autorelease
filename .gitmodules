@@ -1,200 +1,160 @@
 [submodule "aaa"]
 	path = aaa
 	url = ../../aaa
-	branch = master
-[submodule "bgpcep"]
-	path = bgpcep
-	url = ../../bgpcep
-	branch = master
-[submodule "controller"]
-	path = controller
-	url = ../../controller
-	branch = master
-[submodule "dlux"]
-	path = dlux
-	url = ../../dlux
-	branch = master
-[submodule "groupbasedpolicy"]
-	path = groupbasedpolicy
-	url = ../../groupbasedpolicy
-	branch = master
-[submodule "l2switch"]
-	path = l2switch
-	url = ../../l2switch
-	branch = master
-[submodule "lispflowmapping"]
-	path = lispflowmapping
-	url = ../../lispflowmapping
-	branch = master
-[submodule "odlparent"]
-	path = odlparent
-	url = ../../odlparent
-	branch = master
-[submodule "openflowjava"]
-	path = openflowjava
-	url = ../../openflowjava
-	branch = master
-[submodule "openflowplugin"]
-	path = openflowplugin
-	url = ../../openflowplugin
-	branch = master
-[submodule "ovsdb"]
-	path = ovsdb
-	url = ../../ovsdb
-	branch = master
-[submodule "sdninterfaceapp"]
-	path = sdninterfaceapp
-	url = ../../sdninterfaceapp
-	branch = master
-[submodule "sfc"]
-	path = sfc
-	url = ../../sfc
-	branch = master
-[submodule "snbi"]
-	path = snbi
-	url = ../../snbi
-	branch = master
-[submodule "snmp4sdn"]
-	path = snmp4sdn
-	url = ../../snmp4sdn
-	branch = master
-[submodule "tcpmd5"]
-	path = tcpmd5
-	url = ../../tcpmd5
-	branch = master
-[submodule "ttp"]
-	path = ttp
-	url = ../../ttp
-	branch = master
-[submodule "vtn"]
-	path = vtn
-	url = ../../vtn
-	branch = master
-[submodule "yangtools"]
-	path = yangtools
-	url = ../../yangtools
-	branch = master
+	branch = .
 [submodule "alto"]
 	path = alto
 	url = ../../alto
-	branch = master
-[submodule "capwap"]
-	path = capwap
-	url = ../../capwap
-	branch = master
-[submodule "didm"]
-	path = didm
-	url = ../../didm
-	branch = master
-[submodule "docs"]
-	path = docs
-	url = ../../docs
-	branch = master
-[submodule "iotdm"]
-	path = iotdm
-	url = ../../iotdm
-	branch = master
-[submodule "lacp"]
-	path = lacp
-	url = ../../lacp
-	branch = master
-[submodule "nic"]
-	path = nic
-	url = ../../nic
-	branch = master
-[submodule "neutron"]
-	path = neutron
-	url = ../../neutron
-	branch = master
-[submodule "packetcable"]
-	path = packetcable
-	url = ../../packetcable
-	branch = master
-[submodule "reservation"]
-	path = reservation
-	url = ../../reservation
-	branch = master
-[submodule "snmp"]
-	path = snmp
-	url = ../../snmp
-	branch = master
-[submodule "sxp"]
-	path = sxp
-	url = ../../sxp
-	branch = master
-[submodule "tsdr"]
-	path = tsdr
-	url = ../../tsdr
-	branch = master
-[submodule "topoprocessing"]
-	path = topoprocessing
-	url = ../../topoprocessing
-	branch = master
-[submodule "usc"]
-	path = usc
-	url = ../../usc
-	branch = master
-[submodule "vpnservice"]
-	path = vpnservice
-	url = ../../vpnservice
-	branch = master
-[submodule "netconf"]
-	path = netconf
-	url = ../../netconf
-	branch = master
-[submodule "mdsal"]
-	path = mdsal
-	url = ../../mdsal
-	branch = master
-[submodule "integration/distribution"]
-	path = integration/distribution
-	url = ../../integration/distribution
-	branch = master
-[submodule "armoury"]
-	path = armoury
-	url = ../../armoury
-        branch = master
-[submodule "centinel"]
-	path = centinel
-	url = ../../centinel
-        branch = master
-[submodule "ofextensions/circuitsw"]
-	path = ofextensions/circuitsw
-	url = ../../ofextensions/circuitsw
-        branch = master
+	branch = .
+[submodule "bgpcep"]
+	path = bgpcep
+	url = ../../bgpcep
+	branch = .
+[submodule "bier"]
+	path = bier
+	url = ../../bier
+	branch = .
+[submodule "cardinal"]
+	path = cardinal
+	url = ../../cardinal
+	branch = .
+[submodule "controller"]
+	path = controller
+	url = ../../controller
+	branch = .
+[submodule "coe"]
+	path = coe
+	url = ../../coe
+	branch = .
+[submodule "daexim"]
+	path = daexim
+	url = ../../daexim
+	branch = .
+[submodule "dlux"]
+	path = dlux
+	url = ../../dlux
+	branch = .
+[submodule "dluxapps"]
+	path = dluxapps
+	url = ../../dluxapps
+	branch = .
+[submodule "eman"]
+	path = eman
+	url = https://git.opendaylight.org/gerrit/p/eman
+	branch = .
 [submodule "faas"]
 	path = faas
 	url = ../../faas
-        branch = master
-[submodule "messaging4transport"]
-	path = messaging4transport
-	url = ../../messaging4transport
-        branch = master
+	branch = .
+[submodule "genius"]
+	path = genius
+	url = ../../genius
+	branch = .
+[submodule "groupbasedpolicy"]
+	path = groupbasedpolicy
+	url = ../../groupbasedpolicy
+	branch = .
+[submodule "honeycomb/vbd"]
+	path = honeycomb/vbd
+	url = ../../honeycomb/vbd
+	branch = .
+[submodule "infrautils"]
+	path = infrautils
+	url = ../../infrautils
+	branch = .
+[submodule "integration/distribution"]
+	path = integration/distribution
+	url = ../../integration/distribution
+	branch = .
+[submodule "l2switch"]
+	path = l2switch
+	url = ../../l2switch
+	branch = .
+[submodule "lispflowmapping"]
+	path = lispflowmapping
+	url = ../../lispflowmapping
+	branch = .
+[submodule "mdsal"]
+	path = mdsal
+	url = ../../mdsal
+	branch = .
 [submodule "nemo"]
 	path = nemo
 	url = ../../nemo
-        branch = master
-[submodule "netide"]
-	path = netide
-	url = ../../netide
-        branch = master
-[submodule "unimgr"]
-	path = unimgr
-	url = ../../unimgr
-	branch = master
-[submodule "next"]
-	path = next
-	url = ../../next
-    branch = master
-[submodule "yang-push"]
-	path = yang-push
-	url = ../../yang-push
-    branch = master
-[submodule "usecplugin"]
-	path = usecplugin
-	url = ../../usecplugin
-    branch = master
+	branch = .
+[submodule "netconf"]
+	path = netconf
+	url = ../../netconf
+	branch = .
+[submodule "netvirt"]
+	path = netvirt
+	url = ../../netvirt
+	branch = .
+[submodule "neutron"]
+	path = neutron
+	url = ../../neutron
+	branch = .
+[submodule "nic"]
+	path = nic
+	url = ../../nic
+	branch = .
+[submodule "ocpplugin"]
+	path = ocpplugin
+	url = ../../ocpplugin
+	branch = .
 [submodule "of-config"]
 	path = of-config
 	url = ../../of-config
-	branch = master
+	branch = .
+[submodule "openflowplugin"]
+	path = openflowplugin
+	url = ../../openflowplugin
+	branch = .
+[submodule "ovsdb"]
+	path = ovsdb
+	url = ../../ovsdb
+	branch = .
+[submodule "packetcable"]
+	path = packetcable
+	url = ../../packetcable
+	branch = .
+[submodule "sfc"]
+	path = sfc
+	url = ../../sfc
+	branch = .
+[submodule "snmp"]
+	path = snmp
+	url = ../../snmp
+	branch = .
+[submodule "snmp4sdn"]
+	path = snmp4sdn
+	url = ../../snmp4sdn
+	branch = .
+[submodule "sxp"]
+	path = sxp
+	url = ../../sxp
+	branch = .
+[submodule "topoprocessing"]
+	path = topoprocessing
+	url = ../../topoprocessing
+	branch = .
+[submodule "ttp"]
+	path = ttp
+	url = ../../ttp
+	branch = .
+[submodule "unimgr"]
+	path = unimgr
+	url = ../../unimgr
+	branch = .
+[submodule "usc"]
+	path = usc
+	url = ../../usc
+	branch = .
+[submodule "vtn"]
+	path = vtn
+	url = ../../vtn
+	branch = .
+[submodule "yangtools"]
+	path = yangtools
+	url = ../../yangtools
+	branch = .
